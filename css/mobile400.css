@@ -1,0 +1,40 @@
+@media screen and (max-width: 575px) {
+
+	html{
+		font-size: 20px;
+	}
+	
+	html body .site-branding .site-title a{
+		font-size: 25px;
+		line-height: 25px;
+	}
+
+	body.home article .entry-header h1 a{
+		font-size:20px;
+	}
+
+	body.home article .entry-header h1{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.category article .entry-title,
+	 .search article .entry-title, 
+	.author article .entry-title, 
+	.tag article .entry-title{
+		margin-top: 20px;
+	}
+
+	body.category article .entry-header h2 a,
+	body.tag article .entry-header h2 a,
+	body.author article .entry-header h2 a,
+	body.archive article .entry-header h2 a,
+	body.search article .entry-header h2 a{
+		font-size:17px;
+	}
+
+	.single article .entry-title{
+		font-size: 30px;
+	}
+
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width: 768px) {
+
+	div.site-branding a{
+		font-size: 35px;
+	}
+
+	html .home article,
+	html .category article,
+	html .tag article,
+	html .search article,
+	html .author article{
+    	margin: 50px 0px 80px 90px;
+		height: 300px;
+		width: 300px;
+		background-color:#000;
+		float: left;
+		position: relative;
+		display: none;
+		-webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+		-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+		box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+		overflow:hidden;
+		-ms-transform: rotate(45deg); /* IE 9 */
+		-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+		transform: rotate(45deg);
+	}
+	
+	html body article h2.entry-title{
+		position: relative;
+		font-size: 40px;
+		margin: 0px 0px;
+		top: -20px;
+		left: -120px;
+		width: 200%;
+		padding: 5px 120px;
+	}
+
+	html body.home #main article.small h2.entry-title,
+	html body.category #main article.small h2.entry-title,
+	html body.search #main article.small h2.entry-title, 
+	html body.author #main article.small h2.entry-title, 
+	html body.tag #main article.small h2.entry-title{
+		    position: relative;
+			font-size: 40px;
+			margin: 0px 0px;
+			top: -20px;
+			left: -120px;
+			width: 200%;
+			padding: 5px 120px;
+	}
+	
+	html body.home #main article.medium h2.entry-title,
+	html body.category #main article.medium h2.entry-title,
+	html body.search #main article.medium h2.entry-title, 
+	html body.author #main article.medium h2.entry-title, 
+	html body.tag #main article.medium h2.entry-title{
+		position: relative;
+		font-size: 40px;
+		margin: 90px 0px;
+		top: 30px;
+		left: -150px;
+		width: 200%;
+		padding: 5px 0px;
+	}
+
+	html body.home #main article.large h2.entry-title,
+	html body.category #main article.large h2.entry-title,
+	html body.search #main article.large h2.entry-title, 
+	html body.author #main article.large h2.entry-title, 
+	html body.tag #main article.large h2.entry-title{
+		position: relative;
+		font-size: 20px;
+		margin: 0px 0px;
+		top: 120px;
+		left: -180px;
+		width: 100%;
+		padding: 5px 190px;
+	}
+
+	body article .entry-content{
+		font-size: 25px;
+	}
+
+	.single #main article{
+		width: 100%;
+	}
+
+	body #sidebar-bottom aside{
+		float: none;
+		width: 90%;
+		padding: 0% 5%;
+		margin-left: 0px;
+	}
+	
+	html .page-footer h1 span,
+	html .page-footer h1 a {
+		text-decoration: none;
+		padding: 0px 10px;
+		margin: 0px 5px;
+	}
+	
+	html .page-footer h1.pagination{
+		padding: 0px;
+	}
+	
+	html footer.page-footer h1.pagination span.more{
+		padding: 0px;
+	}
+	
+	html body #header-area{
+		width: 100%;
+		position: relative;
+		display: block;
+		height: auto;
+	}
+	
+	html body #primary{
+		left: 0px;
+		width: 100%;
+	}
+	
+}

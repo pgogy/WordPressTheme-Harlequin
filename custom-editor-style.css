@@ -1,0 +1,56 @@
+h1{
+	font-size: 50px;
+	padding: 10px 0px;
+ }
+ 
+ h2{
+	font-size: 40px;
+	padding: 10px 0px;
+ }
+ 
+ h3{
+	font-size: 30px;
+	padding: 10px 0px;
+ }
+ 
+ h4{
+	font-size: 25px;
+	padding: 10px 0px;
+ }
+ 
+ h5{
+	font-size: 20px;
+	padding: 10px 0px;
+ }
+ 
+ h6{
+	font-size: 15px;
+	padding: 10px 0px;
+ }
+ 
+ blockquote{
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px 0px;
+	line-height: 40px;
+ }
+ 
+ dt{
+	font-weight: bold;
+ }
+ 
+ dd{
+	padding-left: 10px;
+ }	
+ 
+ 
+ pre{
+	width: 100%;
+    overflow-wrap: break-word;
+ }
+ 
+ .entry-content img{
+	max-width:100%;
+	height: auto;
+ }

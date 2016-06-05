@@ -1,0 +1,9 @@
+.nav-menu-standard ul ul {
+	display: none;
+}
+
+.nav-menu-standard ul {
+	list-style: none;
+	position: relative;
+	padding: 0px;
+}

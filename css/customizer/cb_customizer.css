@@ -1,0 +1,43 @@
+ul#pppcbsortable li{
+	display:inline-block;
+	margin: 1.5px;
+}
+
+#customize-control-bkgsetting input{
+	display: none;
+}
+
+ul#pppcbsortable li{
+	cursor: pointer;
+	cursor: hand;
+}
+
+ul#pppcbsortable{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.draggable{
+	margin: 3px 5px;
+}
+
+.sortable-ui-state-hover{
+	background: #ccc;
+}
+
+#empty-backgrounds{
+	margin: 5px 0px;
+}
+
+#customize-control-bkgsetting img{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.scroll{
+	height: 200px;
+	overflow-y: scroll;
+	background: #f9f9f9;
+}

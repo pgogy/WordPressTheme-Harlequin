@@ -1,0 +1,77 @@
+@media screen and (max-width: 575px) {
+
+	html body div#header-area{
+		width: 100%;
+		position: relative;
+		display: block;
+		height: auto;
+	}
+	
+	html body div#primary{
+		left: 0px;
+		width: 100%;
+	}
+
+	html body #header-area nav{
+		padding: 0px 10px;
+	}
+
+	html body footer#colophon{
+		left: 0px;
+		width: 100%;
+	}
+
+	html body.page .entry-header h1,
+	html body.single .entry-header h1{
+		padding: 20px;
+		font-size: 40px;
+	}
+
+	.site-description{
+		display: none;
+	}
+
+	html body #primary-navigation li a{
+		font-size: 20px;
+	}
+
+	html body header div.site-branding a{
+		font-size: 40px;
+	} 
+	
+	div#site-name{
+		padding: 0px 10px;
+	}
+	
+	html body main#main article{
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		width: 100%;
+		margin: 20px 0px;
+		padding: 0px;
+		height: inherit;
+		display: inline-block;
+	}
+	
+	html body div#primary div#content main#main article .entry-title{
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		width: 100%;
+		margin: 5px 0px 5px 0px;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+		top: 0px;
+		left: 0px;
+	}
+
+	html body.home #content #main article h2.entry-title, 
+	html body.category #content #main article h2.entry-title, 
+	html body.search #content #main article h2.entry-title, 
+	html body.author #content #main article h2.entry-title, 
+	html body.tag #content #main article h2.entry-title{
+		font-size: 40px;
+	}
+	
+}

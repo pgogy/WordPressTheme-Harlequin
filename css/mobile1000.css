@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px) {
+
+	html body #header-area{
+		width: 20%;
+		position: relative;
+		display: block;
+		height: auto;
+	}
+	
+	html body #primary{
+		left: 0px;
+		width: 80%;
+	}
+
+}

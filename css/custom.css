@@ -1,0 +1,16 @@
+.pdfprnt-bottom-left{
+	width:7%;
+	display:inline-block;
+}
+
+.sharedaddy{
+	width: 50%;
+	display: inline-block;
+	clear: none;
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+body div.sharedaddy h3.sd-title{
+	display: none;
+}
